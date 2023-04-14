@@ -2,7 +2,7 @@
 
 async function SayHelloFunction(name)
 {
-    const response = await fetch(`https://aguilarfcorslight.azurewebsites.net/AllForOneAPI/Hello/${name}`); 
+    const response = await fetch(`https://aguilarfallforonerebuild.azurewebsites.net/AllForOneAPI/Hello/${name}`); 
 
     const data = await response.text();
     console.log(data);
@@ -16,7 +16,7 @@ export {SayHelloFunction}
 
 async function AddingTwoNumbersFunction(num1, num2)
 {
-    const response = await fetch(`https://aguilarfcorslight.azurewebsites.net/AllForOneAPI/Adding/${num1}/${num2}`);
+    const response = await fetch(`https://aguilarfallforonerebuild.azurewebsites.net/AllForOneAPI/Adding/${num1}/${num2}`);
 
     const data = await response.text();
     console.log(data);
@@ -30,7 +30,7 @@ export {AddingTwoNumbersFunction}
 
 async function AskingQuestionsFunction(answer1, answer2)
 {
-    const response = await fetch(`https://aguilarfcorslight.azurewebsites.net/AllForOneAPI/AskQuestions/${answer1}/${answer2}`);
+    const response = await fetch(`https://aguilarfallforonerebuild.azurewebsites.net/AllForOneAPI/AskQuestions/${answer1}/${answer2}`);
 
     const data = await response.text();
     console.log(data);
@@ -44,7 +44,7 @@ export {AskingQuestionsFunction}
 
 async function GreaterThanOrLessThanFunction(num1, num2)
 {
-    const response = await fetch(`https://aguilarfcorslight.azurewebsites.net/AllForOneAPI/BiggerOrSmaller/${num1}/${num2}`);
+    const response = await fetch(`https://aguilarfallforonerebuild.azurewebsites.net/AllForOneAPI/BiggerOrSmaller/${num1}/${num2}`);
 
     const data = await response.text();
     console.log(data);
@@ -58,7 +58,7 @@ export {GreaterThanOrLessThanFunction}
 
 async function MadLibFunction(nameInput, friendNameInput, placeInput, adjectiveInput, superHeroOneInput, superHeroTwoInput, villainInput, superPowerOneInput, superPowerTwoInput, amusementParkInput)
 {
-    const response = await fetch(`https://aguilarfcorslight.azurewebsites.net/AllForOneAPI/userInput/${nameInput}/${friendNameInput}/${placeInput}/${adjectiveInput}/${superHeroOneInput}/${superHeroTwoInput}/${villainInput}/${superPowerOneInput}/${superPowerTwoInput}/${amusementParkInput}`);
+    const response = await fetch(`https://aguilarfallforonerebuild.azurewebsites.net/AllForOneAPI/userInput/${nameInput}/${friendNameInput}/${placeInput}/${adjectiveInput}/${superHeroOneInput}/${superHeroTwoInput}/${villainInput}/${superPowerOneInput}/${superPowerTwoInput}/${amusementParkInput}`);
 
     const data = await response.text();
     console.log(data);
@@ -72,7 +72,7 @@ export {MadLibFunction}
 
 async function OddOrEvenFunction(num)
 {
-    const response = await fetch(`https://aguilarfcorslight.azurewebsites.net/AllForOneAPI/tryNumbers/${num}`);
+    const response = await fetch(`https://aguilarfallforonerebuild.azurewebsites.net/AllForOneAPI/tryNumbers/${num}`);
 
     const data = await response.text();
     console.log(data);
@@ -86,7 +86,7 @@ export {OddOrEvenFunction}
 
 async function ReverseItFunction(num)
 {
-    const response = await fetch(`https://aguilarfcorslight.azurewebsites.net/AllForOneAPI/reverseIt/${num}`);
+    const response = await fetch(`https://aguilarfallforonerebuild.azurewebsites.net/AllForOneAPI/reverseIt/${num}`);
 
     const data = await response.text();
     console.log(data);
@@ -100,7 +100,7 @@ export {ReverseItFunction}
 
 async function StudentDirectoryFunctionFirstName(firstName)
 {
-    const response = await fetch(`https://aguilarfcorslight.azurewebsites.net/AllForOneAPI/studentLookUp/${firstName}`);
+    const response = await fetch(`https://aguilarfallforonerebuild.azurewebsites.net/AllForOneAPI/studentLookUp/${firstName}`);
 
     const data = await response.json();
     console.log(data);
@@ -114,7 +114,7 @@ export {StudentDirectoryFunctionFirstName}
 
 async function StudentDirectoryFunctionLastName(lastName)
 {
-    const response = await fetch(`https://aguilarfcorslight.azurewebsites.net/AllForOneAPI/studentLookUp/${lastName}`);
+    const response = await fetch(`https://aguilarfallforonerebuild.azurewebsites.net/AllForOneAPI/studentLookUp/${lastName}`);
 
     const data = await response.json();
     console.log(data);
@@ -128,7 +128,7 @@ export {StudentDirectoryFunctionLastName}
 
 async function StudentDirectoryFunctionSlackName(slackName)
 {
-    const response = await fetch(`https://aguilarfcorslight.azurewebsites.net/AllForOneAPI/studentLookUp/${slackName}`);
+    const response = await fetch(`https://aguilarfallforonerebuild.azurewebsites.net/AllForOneAPI/studentLookUp/${slackName}`);
 
     const data = await response.json();
     console.log(data);
@@ -142,7 +142,7 @@ export {StudentDirectoryFunctionSlackName}
 
 async function StudentDirectoryFunctionEmail(email)
 {
-    const response = await fetch(`https://aguilarfcorslight.azurewebsites.net/AllForOneAPI/studentLookUp/${email}`);
+    const response = await fetch(`https://aguilarfallforonerebuild.azurewebsites.net/AllForOneAPI/studentLookUp/${email}`);
 
     const data = await response.json();
     console.log(data);
@@ -156,7 +156,7 @@ export {StudentDirectoryFunctionEmail}
 
 async function RestaurantPickerFunction(foodType)
 {
-    const response = await fetch(`https://aguilarfcorslight.azurewebsites.net/AllForOneAPI/myChoice/${foodType}`);
+    const response = await fetch(`https://aguilarfallforonerebuild.azurewebsites.net/AllForOneAPI/myChoice/${foodType}`);
 
     const data = await response.text();
     console.log(data);
